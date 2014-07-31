@@ -1,0 +1,11 @@
+# Can ignore specific files
+# Created 2014-08-01
+.DS_Store
+
+# Use wildcards as well
+*~
+*.swp
+
+# Can also ignore all directories and files in a directory.
+bin/**/* 
+tmp/**/* 
