@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Can ignore specific files
 # Created 2014-08-01
 .DS_Store
@@ -9,3 +10,15 @@
 # Can also ignore all directories and files in a directory.
 bin/**/* 
 tmp/**/* 
+=======
+# For projects using nanoc (http://nanoc.ws/)
+
+# Default location for output, needs to match output_dir's value found in config.yaml
+output/
+
+# Temporary file directory
+tmp/
+
+# Crash Log
+crash.log
+>>>>>>> 430d3c72d1754e8b6460127349c97d731fbe6522
